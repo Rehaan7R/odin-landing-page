@@ -27,7 +27,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: white;
+    color: #F9FAF8;
 }
 
 .hero {
@@ -70,7 +70,7 @@ a {
 
 .hero-button {
     background-color: #3882F6;
-    color: white;
+    color: #F9FAF8;
     padding: 8px 27px;
     border: none;
     border-radius: 7px;
@@ -157,7 +157,7 @@ a {
 }
 
 .cta-left {
-    color: white;
+    color: #F9FAF8;
 }
 
 .cta-title {
@@ -173,10 +173,20 @@ a {
 
 .cta-button {
     background-color: #3882F6;
-    color: white;
-    border: 2px solid white;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
     border-radius: 10px;
     padding: 10px 40px;
     font-size: 20px;
     font-weight: 800;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    font-size: 20px;
+    background-color: #1F2937;
+    color: #E5E7EB;
 }

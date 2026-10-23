@@ -113,3 +113,27 @@ a {
 .info-text {
     color: rgb(117, 117, 117);
 }
+
+.quote {
+    height: 40vh;
+    padding: 50px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-text {
+    max-width: 800px;
+}
+
+.author {
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 900;
+    margin-left: 200px;
+}

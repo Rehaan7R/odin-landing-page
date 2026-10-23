@@ -76,3 +76,40 @@ a {
     border-radius: 7px;
     font-weight: 900;
 }
+
+.information {
+    text-align: center;
+    padding: 60px 200px;
+    height: 50vh;
+}
+
+.info-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    flex: 1;
+}
+
+.info {
+    max-width: 200px;
+    flex: 1;
+}
+
+.placeholder {
+    flex: 1;
+    border: 5px solid rgb(0, 132, 255);
+    border-radius: 15px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.info-text {
+    color: rgb(117, 117, 117);
+}
